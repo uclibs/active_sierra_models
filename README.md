@@ -1,6 +1,6 @@
 # ActiveSierraModels
 
-TODO: Write a gem description
+Models from the ActiveSierra gem, extracted for use outside of a Rails engine.
 
 ## Installation
 
@@ -18,12 +18,4 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/active_sierra_models/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+To use this, please place a database.yml with specification for the connection to the Sierra back-end into config/database.yml of your application root. It shoudl be called `sierra`.
